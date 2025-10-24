@@ -5,7 +5,7 @@ The model is fine-tuned on a Kaggle dataset and achieves high accuracy through t
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project demonstrates **binary image classification** using a pretrained convolutional neural network (CNN).  
 We leverage **EfficientNetB0 (ImageNet weights)** as the base model and fine-tune it on a custom dataset of cup and mug images.
@@ -18,17 +18,24 @@ We leverage **EfficientNetB0 (ImageNet weights)** as the base model and fine-tun
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Dataset used:** [Cup_Mug_Dataset](https://www.kaggle.com/datasets)  
 
 Structure:
+
 Cup_mug_data/
+
 ├── train/
+
 │ ├── Cup/
+
 │ └── Mugs/
+
 └── val/
+
 ├── Cup/
+
 └── Mugs/
 
 
@@ -37,7 +44,7 @@ Each folder contains images of cups and mugs in different styles and lighting co
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Base model:** EfficientNetB0 (`include_top=False`, pretrained on ImageNet)
 - **Custom head:**
@@ -57,7 +64,7 @@ Each folder contains images of cups and mugs in different styles and lighting co
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Requirements
 - Python 3.10+
