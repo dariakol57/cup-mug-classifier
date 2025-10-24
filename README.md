@@ -28,15 +28,15 @@ Cup_mug_data/
 
 ├── train/
 
-│ ├── Cup/
+   ├── Cup/
 
-│ └── Mugs/
+   └── Mugs/
 
 └── val/
 
-├── Cup/
+   ├── Cup/
 
-└── Mugs/
+   └── Mugs/
 
 
 
